@@ -13,6 +13,12 @@ namespace CadeMeuMedicoAplication.Controllers
             return View();
         }
 
+        public ActionResult Login()
+        {
+            ViewBag.Title = "Seja bem vindo(a)";
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
